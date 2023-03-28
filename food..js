@@ -249,6 +249,7 @@ app.post("/score",function(req,res){
     if(!founditem){
       res.redirect("/score");
     }else{
+      if(founditem.scores>0){
       const hu=new Win({
         Name:mynm,
     emailid:myem,
@@ -261,6 +262,10 @@ app.post("/score",function(req,res){
       founditem.save()
       res.redirect("/score")
     }
+    else{
+      res.redirect("/");
+    }
+  }
   })
     
 })
