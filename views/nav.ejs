@@ -1,0 +1,75 @@
+<section id="1">
+    <nav class="navbar navbar-expand-lg bg-colour">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img
+          src="img/athishaya-removebg-preview.png"
+          alt="Logo"
+          width="240"
+          height="200"
+          class="d-inline-block align-text-top"
+        /><br />
+      </a>
+      <div class="navbar navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+         
+          <li class="nav-item">
+            <a class="nav-link wht" href="/contact" target="_blank">CONTACT |</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link wht" href="/about" style="font-size: medium;">ABOUT US|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link wht" href="/<%= nmed %>"> <%= nme %>|</a>
+          </li>
+         
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle wht"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              DONATION 
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/dona">GIVE DONATION</a></li>
+              <li><a class="dropdown-item" href="/req">REQUEST FOOD</a></li>
+              <li><hr class="dropdown-divider" /></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/faq" target="_blank">|FAQ</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle wht"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+            <i class="fa fa-user-circle-o fa-3x" aria-hidden="true"></i><br><p style="display: inline;"><%= myname.slice(0,9) %></p>
+            </a>
+            <ul class="dropdown-menu">
+              
+              <li><a class="dropdown-item" href="/profile">my profile</a></li>
+              <li><a class="dropdown-item" href="/score">my score</a></li>
+              <li><hr class="dropdown-divider" /></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>

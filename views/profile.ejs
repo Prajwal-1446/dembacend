@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY Profile</title>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  <script src="https://use.fontawesome.com/1b10875e66.js"></script>
+
+</head>
+<style>
+  body{
+    /* background-color: #283149; */
+    background-image: url("https://static2.bigstockphoto.com/5/0/2/large1500/205773544.jpg");
+  }
+  h1{
+    font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  }
+  h2{
+    display:inline;
+    margin-bottom: 10rem ;
+    color: white;
+  }
+  p{
+    
+    width: 10%;
+    display: inline;
+    border-color: antiquewhite;
+    font-size: 2rem;
+    color: #19A7CE;
+    /* font-family: 'Indie Flower', cursive; */
+    
+  }
+  div{
+    text-align: center;
+   
+  }
+  hr{
+    width: 10%;
+  }
+  i{
+    text-align: center;
+    color: azure;
+  }
+  form{
+    text-align: center;
+  }
+  button{
+    font-size: 30px;
+    height: 40px;
+    width: 200px;
+    margin-left: 150px;
+  }
+  section{
+    background-color: black;
+    background-size: 50%;
+    width: 75%;
+    opacity: .5;
+    text-align: center;
+    margin-left: 250px;
+    
+  }
+</style>
+<body>
+  <section>
+  <center><h1>My Profile</h1><i class="fa fa-id-card-o fa-5x" aria-hidden="true"></i></center><hr>
+  
+
+
+    <div>
+    
+  <h2>First name:</h2>
+  <p ><%= fn %></p><br><hr>
+ <h2>Last name:</h2>
+  <p><%= ln %></p><br><hr>
+ <h2>Email:</h2>
+    <p ><%= mah %></p><br><hr>
+    <h2>City:</h2>
+    <p><%= cit %></p><br><hr>
+      <h2>Address:</h2>
+      <p><%= adrr %></p><br><hr>
+   
+      <h2>Contact No:</h2>
+    <p><%= phn %></p><br><hr>
+     <h2>Gender:</h2>
+<p><%= gend %></p><br><hr>
+  </div>
+  </section>
+<form action="/profile" method="post">
+  <button type="submit" style="background-color: red;"><i class="fa fa-power-off" aria-hidden="true"></i>logout</button>
+</form>
+
+</body>
+</html>

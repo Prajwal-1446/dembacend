@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About Us card </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="shortcut icon" href="favicon.ico?v=2" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.goog
+        leapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico?v=2" type="image/x-icon" />
+   <link rel="stylesheet" href="css2/foodstyl.css">
+   <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <link rel="stylesheet" href="css2/foodstyl.css">
+
+    </head>
+    <style>
+       
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+body{
+    
+        background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+   
+}
+.r{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 70vh;
+    width: 75vw;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    align-content: center;
+    min-height: 100vh;
+    font-family: 'Playfair Display', serif;
+    margin-top: 10px;
+}
+@keyframes jkhgd {
+    0%{background-color: yellow;}
+    50%{background-color: greenyellow;}
+    100%{background-color: #F2921D;}
+    
+}
+.image{
+    background-color: #12192c;
+    display: flex;
+    border-left: 2cm;
+    border-radius: 8px 0 0 8px;
+    animation-name:jkhgd;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+   
+}
+.kmy{
+height:50vh;
+margin:50px auto;
+
+
+
+}
+.content{
+    background-color: #12192c;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0  12px 12px 0;
+    color: #fff;
+}
+.content h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+.content span{
+    height: 0.5px;
+    width: 80px;
+    background: #777;
+    margin: 30px 0;
+}
+.content p{
+    padding-bottom: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+    color:#ffffff
+}
+.links{
+    margin: 15px 0;
+}
+.links li{
+    border: 2px solid #4158D0;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+}
+.links li a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+.links li:hover{
+    border-color: #C850C0;
+}
+
+.vertical-line{
+    height: 3px;
+    width: 30px;
+    background: #C850C0;
+    margin: 0 auto;
+}
+.icons{
+    display: flex;
+    padding: 15px 0;
+}
+.icons li{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+.icons li i{
+    font-size: 26px;
+    opacity: 0.8;
+}
+.icons li i:hover{
+    color: #C850C0;
+    cursor: pointer;
+}
+
+
+/*****************/
+
+@media(max-width: 900px){
+    .r{
+        grid-template-columns: 1fr;
+        width: 100%;
+        border-radius: none;
+    }
+    .image{
+        height: 100vh;
+        border-radius: none;
+    }
+    .content{
+        height: 100vh;
+        border-radius: none;
+    }
+    .content h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .content span{
+        margin: 20px 0;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .links li a{
+        font-size: 14px;
+    }
+    .links{
+        margin: 5px 0;
+    }
+    .links li{
+        padding: 6px 10px;
+    }
+    .icons li i{
+        font-size: 15px;
+    }
+}
+.credit{
+    text-align: center;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .credit a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+  } 
+p{
+    font-family: 'Satisfy', cursive;
+    font-size: 21px;
+}
+
+    </style>
+    <body>
+   <%- include("nav")-%>
+
+        <section class="r">
+            <div class = "image">
+                <img class="kmy" src="https://media.istockphoto.com/id/1223248918/vector/food-donation-icon.jpg?s=612x612&w=0&k=20&c=miDoq5FQTXNjrUFAuBz1C95LdxUwqvKd_55rQ2ZJffQ=">
+            </div>
+
+            <div class = "content">
+                <h2 style="color: #F2921D;">About Us</h2>
+                <span><!-- line here --></span>
+                <p>At Athishaya, we understand the struggles of food insecurity and the impact it can have on individuals and communities. Our mission is to provide food donations to those in need, helping to fight hunger and eliminate the burden of food insecurity. 
+                    We takes donations from local grocery stores, restaurants, food banks, and other food-related organizations. We also accept monetary donations to help cover transportation costs for delivering these donations. Our donations include fresh produce, canned goods, dairy products, frozen foods, and more. 
+                    We come from a variety of backgrounds and bring our unique experiences and perspectives to the work we do.One  more special thing of our organisation is 
+                 if any food we has get rotten then we will convert into organic manure and supply to formers under nominal price</p>
+                <ul class = "links">
+                    <li><a href = "#">work</a></li>
+                    <div class = "vertical-line"></div>
+                    <li><a href = "#">service</a></li>
+                    <div class = "vertical-line"></div>
+                    <li><a href = '/contact'>contact</a></li>
+                </ul>
+                <ul class = "icons">
+                    <li>
+                        <i class = "fa fa-twitter"></i>
+                    </li>
+                    <li>
+                        <i class = "fa fa-facebook"></i>
+                    </li>
+                    <li>
+                        <i class = "fa fa-github"></i>
+                    </li>
+                    <li>
+                        <i class = "fa fa-pinterest"></i>
+                    </li>
+                </ul>
+            </div>
+        </section><br><br>
+        <div class="credit">Made possible <span style="color:tomato">❤</span> Athishaya</a></div>
+    </body>
+</html>

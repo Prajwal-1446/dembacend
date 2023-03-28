@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Score</title>
+  <link rel="shortcut icon" href="favicon.ico?v=2" type="image/x-icon" />
+
+</head>
+<style>
+    body {
+    background-color: #393E46;
+    text-align: center;
+  }
+    h1 {
+    
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 2rem;
+    color: #4ECCA3;
+  }
+
+ img{
+    width:256px;
+    height: 256px;
+    display: inline;
+ }
+  button{
+    background-color: yellowgreen;
+  font-size: 30px;
+    height: 40px;
+    width: 200px;
+  }
+  p{
+    font-size: 256px;
+    display:inline;
+  }
+
+</style>
+<body>
+    <h1>Hurray!You have won</h1>
+    <img src="https://cdn-icons-png.flaticon.com/512/1855/1855154.png" alt="" srcset="">
+    <p><%= points %></p>
+    <h1>Keep doin your great work in feeding needy ones <br>Thank You for Time and efforts </h1>
+    <h1>Good wishes from Athishaya</h1>
+    <form action="/score" method="post">
+        <button type="submit"><i class="fa fa-gift" aria-hidden="true"></i>Claim reward</button>
+    </form>
+
+</body>
+</html>

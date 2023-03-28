@@ -1,0 +1,1 @@
+alert("For getting rewards for your donation please register the account");

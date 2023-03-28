@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Donation</title>
+</head>
+<body>
+    <style>
+        .myDiv {
+    
+  text-align: center;
+  
+}
+     
+        body {
+          background-image: url('/img/donat.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+          
+          
+        }
+        
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgba(0, 0,0,0.5);
+  color: white;
+  flex-direction: column;
+  display:inline-block;
+
+}
+.button2 {
+  background-color: #12ef2c;
+  font-size: 30px;
+    height: 40px;
+    width: 200px;
+    
+  }
+
+
+</style>
+<body>
+  
+<script src="dona.js"></script>
+    <form action="/dona" method="post">
+        
+      <center> <h1 style="color:blue;  font-size: 5rem;;"> Donation Details</h1></br></center>
+       <div class="myDiv">
+        <h3><label for="quanty">For how many number of person the food you donate</label>
+        <input type="number" name="head"required></h3>
+         <h3><label for="abcd" >Address:  </label> 
+        <input type="text" id="abcd" name="abcd" required></h3> </br>
+          <h3><label for="ctyi">City:</label>
+          <input type="text" name="ctyi" ></h3>
+         <h3><label for="pincode1">Pincode:   </label>
+        <input type=  "number"  name="pine" ></h3></p></br>
+        <h3>   <label for="alternumber">Alternate Number(optional):   </label> <input type="text" id="contact" name="contact"></h3></br>
+             <h3><label for="eat">Can needful people come to the mentioned place and eat?(yes/no)</label>
+            <input type=  "text"  name="availability"required> </h3>
+             <h3><label for="time" reqired>At what time will you expect us to receive donation?</label>
+            <input type="text" name="time"></h3> 
+            <button class="button2">Submit</button>
+        
+             </div>
+        
+      
+      </form>
+    
+</body>
+</html>

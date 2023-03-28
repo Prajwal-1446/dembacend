@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+  <script src="https://use.fontawesome.com/1b10875e66.js"></script>
+
+</head>
+<style>
+    body{
+        background-image: url("img/background.jpg");
+       
+        color:white;
+        text-align: center;
+    }
+    .sk{
+        font-size: 5rem;
+  color:red;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  position: relative;
+ 
+  
+    }
+    #mail{
+        width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+    font-size: 1.2em;
+    }
+    #b1{
+  background-color: blue;
+}
+#b1:hover{
+     background-color:white;
+}
+label{
+    color:black;
+}
+input{
+    background-color: rgba(0,0,0,.5);
+    color: antiquewhite;
+}
+::placeholder{
+    color: azure;
+}
+#address{
+    background-color: rgba(0,0,0,.5);
+      color: white;
+}
+div{
+    background-image: url("img/3.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+}
+    </style>
+<body>
+    
+  
+    <script src="sign.js"></script>
+  <h2 class="sk"><i class="fa fa-tasks" aria-hidden="true"></i>SIGN IN</h2>
+    <form action="/sign" method="post" >
+
+        <div>
+            
+        <label for="name1" id="nam" >First Name:</label>
+        <input type="Text" name="name1" placeholder="enter your first name" required><br><br>
+        <label for="name" id="nam2" >Last Name:</label>
+        <input type="Text" name="nam2" placeholder="enter your last  name" ><br><br>
+        <label for="email" id="mail" >EMAIL:</label>
+        <input type="email" name="email" placeholder="enter your mail id" required><br><br>
+        <label for="password">PASSWORD:</label>
+        <input type="password" name="password" placeholder="enter the password" id="pw" required><br>
+        <label for="">
+        <input type="checkbox" onclick="myFunction()">Show Password</input>
+    </label><br>
+       <label for="address" style="padding-right: 200px;">ADDRESS:</label><br><br>
+       <textarea name="address" id="address" cols="30" rows="10" ></textarea><br><br>
+       <label for="cty" style="color: aliceblue;">City:</label>
+       <input type="text" name="cty" placeholder="enter your city"  style="color: white;;" ><br><br>
+       <label for="gender" style="padding-right: 90px;">Gender:</label>
+        <input type="text" name="gender" placeholder="enter your gender"  aria-placeholder="80px" ><br><br>
+        <label for="contact">Contact</label>
+            <input type="tel" name="contact" placeholder="Enter your contacact" required><br> <br>
+            </div>
+           
+            <button type="submit" id="b1" ><i class="fa fa-sign-in fa-2x" aria-hidden="true"></i>
+                <b>Sign In</b></button><br>
+    </form>
+</body>
+</html>

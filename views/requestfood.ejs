@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Request food</title>
+</head>
+
+    <style>
+        body {
+          background-image: url('https://media.gettyimages.com/id/941786374/photo/portrait-of-student-having-mid-day-meal-in-indian-school.jpg?s=612x612&w=0&k=20&c=GPc0-MBZfDleFn8xD2ovuRGQ5AMo51HlzVm1zX1dlwI=');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        
+          
+        }
+       
+input{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgba(0, 0,0,0.5);
+  color: white;
+}
+h1 {
+  font-style: algerian;
+  font-size: 80px;
+  color:#39B5E0;
+}
+textarea{
+  background-color: rgba(0, 0,0,0.5);
+  color: white;
+}
+form{
+  text-align: center;
+}
+button{
+  font-size: 30px;
+    height: 40px;
+    width: 200px;
+}
+</style>
+<body>
+  
+<script src="reeq.js"></script>
+    <form action="/req" method="post">
+        <div id="myDIV">                                 -*
+          <h1>Request Food</h1>
+      <h3>  <label for="rda">Locality/Area/Street:</label> </h3>
+        <textarea   name="rda" placeholder="enter address"  rows="10" cols="30" required></textarea> 
+         <h3> <label for="flatno">Flat no/Building Name(optional):</label>
+        <input type="text"  name="flatno"></h3>
+         <h3><label for="landmark">Landmark(optional): </label>
+        <input type="text" name="landmark"></h3>
+        <h3><label for="pin">Pincode:   </label>
+        <input type=  "number"  name="pin"></h3>
+        <h3><label for="altno">Number:</label>
+        <input type="tel"  name="altno" required></h3>
+        </div>
+  <button type="submit" style="background-color: green;">Request</button>
+      
+      </form>
+    
+</body>
+</html>

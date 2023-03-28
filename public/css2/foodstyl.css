@@ -1,0 +1,157 @@
+.bg-colour{
+    background-color:#F55050;
+    border-radius: 00px 100px / 120px;
+    background-color: #5B8FB9;
+    background-color: #0081C9;
+    }
+
+.navbar{
+    padding-top:0px;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 25px;
+    color: white;
+ 
+}
+.nav-item{
+    font-size:1.2rem;
+    color:white;
+}
+ .nav-item .nav-link{
+    font-family: "Nova Flat","Helvetica Neue",Helvetica,sans-serif;;
+  border-right: 1px;
+  font-size:1.2rem;
+  color:white;
+    
+  }
+ 
+  header{
+    text-align: center;
+    font-family: "Montserrat-bold";
+    font-size:xx-large;
+    line-height: 1.5cm;
+  }
+  .d-block {
+    height:auto;
+}
+h5{
+    font-family: "Montserrat-bold";
+
+}
+.img{
+    margin-left: auto;
+    margin-right: auto;
+width: 100%;
+height: 600px;
+}
+.intr{
+    text-align: center;
+    color:#F55050 ;
+    font-size: larger;
+    margin-bottom: 0ex;
+}
+.int2{
+    text-align: center;
+    font-size: larger;
+    margin-top: 0px;
+    color: #000;
+    
+}
+.ico{
+    color: #FF7B54;
+}
+.fa-4x{
+    margin-bottom: 1rem;
+}
+.headn{
+    color: #CD0404;
+}
+#features{
+    padding-top:7%;
+    padding-bottom:7%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.partner{
+    font-size: xx-large;
+    font-family: 'Caveat', cursive;
+}
+.bg2{
+    background-image: url(https://w7.pngwing.com/pngs/275/820/png-transparent-trend-pattern-background-textured-textures-black-texture-poster-banner.png);
+  }
+.hj2{
+   text-align: center;
+   position: relative;
+   left: 500px;
+  
+}
+.hj3{
+    text-align: center;
+    position: relative;
+    left: 500px;
+   
+   
+}
+.work{
+    font-family: 'Caveat', cursive;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height:1.5x;
+}
+#testinomial{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#5D3891;
+    background-image: url(https://kettocdn.gumlet.io/media/campaign/517000/517281/image/6156ee39db8bb.jpeg?w=400&dpr=2.6);
+    background-size: 50%;
+}
+.fed{
+    text-align: center;
+}
+.fty{
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+}
+    
+
+.hj1{
+  
+    text-align: center;
+    position: relative;
+    left: 500px;
+   
+}
+.row{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.feedback{
+    font-size: xx-large;
+    font-family: 'Caveat', cursive;
+}
+.im{
+    font-size: 1.2em;
+    position: relative;
+    left: 358px;
+}
+.gv{
+    padding-right: 7px;
+    position: relative;
+    top:180px;
+    font-size: 15px;
+
+}
+.brandsp{
+background-color:#F2921D;
+
+}
+.hlo{
+height: 10%;
+
+}
+
