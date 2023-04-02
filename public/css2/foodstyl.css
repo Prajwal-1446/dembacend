@@ -154,4 +154,25 @@ background-color:#F2921D;
 height: 10%;
 
 }
+@media (max-width: 991px) {
+    .navbar-brand {
+      float: none;
+    }
+    .fbox{
+        margin-top: 2px;
+        text-align: center;
+    }
+    .cit{
+        width: 988px;
+    }
+    #testinomial{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  }
+  .navbar-toggler {
+    border: none;
+    width: 1em;
+    float: right;
+  }
 
