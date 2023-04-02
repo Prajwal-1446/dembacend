@@ -162,8 +162,10 @@ height: 10%;
         margin-top: 2px;
         text-align: center;
     }
-    .cit {
+    .cit img{
         width: 50%;
+        text-align: center;
+        height: 50%;
     }
     #testinomial{
         background-repeat: no-repeat;
